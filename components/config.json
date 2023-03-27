@@ -1,0 +1,151 @@
+[
+
+    {
+    "Bucaramanga":[
+        { "Instructores":{
+            "Nombre":"juan",
+            "telefono":"315648972",
+            "email":"juanmelo@gmail.com",
+            "Teams":[
+                {
+                    "horario":"05-10-2022",
+                    "hora":"00:00",
+                    "salones":"4 Piso A"
+                }
+            ]
+            },"Aprendices":{
+                "Nombre":"Marlene",
+                "telefono":"316587254",
+                "email":"merlenetira@gmail.com",
+                "Barrio":"poblado",
+                "Tipo de Transporte":"buseto",
+                "Teams":[
+                    {
+                        "horario":"05-10-2022",
+                        "hora":"00:00",
+                        "salones":"4 Piso A"
+                    }
+                ],"Pre requisito":{
+                    "tecnologia":"soldadura",
+                    "tecnico":"nosewe",
+                    "modalidad":"electiva"
+                    
+                },"roadmap":{
+                    "Nro_creditos":"4",
+                    "Año":"2000",
+                    "Nro_asignaturas":"5"
+                }
+            }
+        }
+    ],"Medellin":[
+        { "Instructores":{
+            "Nombre":"juan",
+            "telefono":"315648972",
+            "email":"juanmelo@gmail.com",
+            "Teams":[
+                {
+                    "horario":"05-10-2022",
+                    "hora":"00:00",
+                    "salones":"4 Piso A"
+                }
+            ]
+            },"Aprendices":{
+                "Nombre":"Marlene",
+                "telefono":"316587254",
+                "email":"merlenetira@gmail.com",
+                "Barrio":"poblado",
+                "Tipo de Transporte":"buseto",
+                "Teams":[
+                    {
+                        "horario":"05-10-2022",
+                        "hora":"00:00",
+                        "salones":"4 Piso A"
+                    }
+                ],"Pre requisito":{
+                    "tecnologia":"soldadura",
+                    "tecnico":"nosewe",
+                    "modalidad":"electiva"
+                    
+                },"roadmap":{
+                    "Nro_creditos":"4",
+                    "Año":"2000",
+                    "Nro_asignaturas":"5"
+                }
+            }
+        }
+    ],"Bogota":[
+        { "Instructores":{
+            "Nombre":"juan",
+            "telefono":"315648972",
+            "email":"juanmelo@gmail.com",
+            "Teams":[
+                {
+                    "horario":"05-10-2022",
+                    "hora":"00:00",
+                    "salones":"4 Piso A"
+                }
+            ]
+            },"Aprendices":{
+                "Nombre":"Marlene",
+                "telefono":"316587254",
+                "email":"merlenetira@gmail.com",
+                "Barrio":"poblado",
+                "Tipo de Transporte":"buseto",
+                "Teams":[
+                    {
+                        "horario":"05-10-2022",
+                        "hora":"00:00",
+                        "salones":"4 Piso A"
+                    }
+                ],"Pre requisito":{
+                    "tecnologia":"soldadura",
+                    "tecnico":"nosewe",
+                    "modalidad":"electiva"
+                    
+                },"roadmap":{
+                    "Nro_creditos":"4",
+                    "Año":"2000",
+                    "Nro_asignaturas":"5"
+                }
+            }
+        }
+    ],"Mexico":[
+        { "Instructores":{
+            "Nombre":"juan",
+            "telefono":"315648972",
+            "email":"juanmelo@gmail.com",
+            "Teams":[
+                {
+                    "horario":"05-10-2022",
+                    "hora":"00:00",
+                    "salones":"4 Piso A"
+                }
+            ]
+            },"Aprendices":{
+                "Nombre":"Marlene",
+                "telefono":"316587254",
+                "email":"merlenetira@gmail.com",
+                "Barrio":"poblado",
+                "Tipo de Transporte":"buseto",
+                "Teams":[
+                    {
+                        "horario":"05-10-2022",
+                        "hora":"00:00",
+                        "salones":"4 Piso A"
+                    }
+                ],"Pre requisito":{
+                    "tecnologia":"soldadura",
+                    "tecnico":"nosewe",
+                    "modalidad":"electiva"
+                    
+                },"roadmap":{
+                    "Nro_creditos":"4",
+                    "Año":"2000",
+                    "Nro_asignaturas":"5"
+                }
+            }
+        }
+    ]
+    }
+
+]
