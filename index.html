@@ -5,11 +5,167 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="app.js" type="module"></script>
+    <script src="app.js" type= "module"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="app">
         
+        <button @click="getdatos">click</button>
+
+        <select @change="getdatos" v-model="sel">
+            <option value="Bucaramanga">Bucaramanga</option>
+            <option value="Medellin">Medellin</option>
+            <option value="Bogota">Bogota</option>
+            <option value="Mexico">Mexico</option>
+            
+        </select>
+        <h1>Instructor</h1>
+        <table id="tablaprof">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Email</th>
+                    <th>telefono</th>
+                    <th>fecha</th>
+                    <th>Asignatura</th>
+                    <th>Tipo_Asistencia</th>
+                    <th>Hora</th>
+                    <th>Salon</th>
+                </tr>
+            </thead>
+            <tbody > 
+                <tr v-for="(index,i) in instructor">
+                    <td>{{index.Nombre}} </td>
+                    <td>{{index.email}} </td>
+                    <td>{{index.telefono}} </td>
+                    <td>{{index.Teams.horario}} </td>
+                    <td>{{index.Teams.Asignatura}}</td>
+                    <td>{{index.Teams.Tipo}}</td>
+                    <td>{{index.Teams.hora}}</td>
+                    <td>{{index.Teams.salones}}</td>
+                </tr>
+            </tbody>
+        </table>
+        <button @click.prevent="Aggprof = true">Agregar_profesor</button>
+        <div v-show="Aggprof">
+            <form action="">
+            <input type="text"  v-show="Aggprof" placeholder="Ingrese el nombre del profesor" v-model="NameProf">
+            <input type="number" v-show="Aggprof" placeholder="Ingrese su numero de telefono" v-model="TelProf">
+            <input type="email" v-show="Aggprof" placeholder="Ingrese el email" v-model="EmailProf">
+            <input type="date" v-show="Aggprof" placeholder="Ingrese el dia que tiene q dictar clase" v-model="DiaClase">
+            <input type="time" v-show="Aggprof" placeholder="Ingrese la hora" v-model="Horaprof">
+            <input type="text"  v-show="Aggprof" placeholder="Ingrese los salones" v-model="salonprof">
+            <input type="text"  v-show="Aggprof" placeholder="Ingrese la asignatura" v-model="asignatura">
+            <input type="text"  v-show="Aggprof" placeholder="Ingrese si es presencial o remota" v-model="tipo">
+            <button @click.prevent="enviar2">enviar</button>
+        </form>
+        </div>
+        <h1>Aprendiz</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre_aprendiz</th>
+                    <th>Email_aprendiz</th>
+                    <th>Telefono_aprendiz</th>
+                    <th>Fecha_clase</th>
+                    <th>Hora_clase</th>
+                    <th>Salon_clase</th>
+                    <th>Trasporte</th>
+                    <th>Barrio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr v-for="(i) in aprendices">
+                <td>{{i.Nombre}}</td>
+                <td>{{i.email}}</td>
+                <td>{{i.telefono}}</td>
+                <td>{{i.Teams.horario}}</td>
+                <td>{{i.Teams.hora}}</td>
+                <td>{{i.Teams.salones}}</td>
+                <td>{{i.Transporte}}</td>
+                <td>{{i.Barrio}}</td>
+                </tr>
+            </tbody>
+        </table>
+        <h1>Niveles del aprendiz</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Pre_requisito</th>
+                    <th>Tecnologia</th>
+                    <th>Tecnico</th>
+                    <th>Modalidad</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr v-for="(i) in aprendices">
+                    <td>{{i.Niveles.Pre_requisito}}</td>
+                    <td>{{i.Niveles.tecnologia}}</td>
+                    <td>{{i.Niveles.tecnico}}</td>
+                    <td>{{i.Niveles.modalidad}}</td>
+                    
+                </tr>
+            </tbody>
+        </table>
+        <h1>Roadmap del aprendiz</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>No_creditos</th>
+                    <th>Año</th>
+                    <th>No_asignaturas</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr v-for="(i) in aprendices">
+                    <td>{{i.roadmap.Nro_creditos}}</td>
+                    <td>{{i.roadmap.Año}}</td>
+                    <td>{{i.roadmap.Nro_asignaturas}}</td>
+                </tr>
+            </tbody>
+        </table>
+        <button @click.prevent="Aggalumn = true">Agregar_aprendiz</button>
+        <div v-show="Aggalumn">
+            <form action="">
+            <input type="text" v-show="Aggalumn" placeholder="nombre del Alumno" v-model="NomApren">
+            <input type="number" v-show="Aggalumn"  placeholder="numero de telefono" v-model="No_tel">
+            <input type="email" v-show="Aggalumn" placeholder="email" v-model="emailApren">
+            <input type="date" v-show="Aggalumn"  placeholder="Ingrese el dia que tiene clase" v-model="dia_clase">
+            <input type="time" v-show="Aggalumn" placeholder="Ingrese la hora" v-model="hora_clase">
+            <input type="text"  v-show="Aggalumn" placeholder="Ingrese los salones" v-model="salones">
+            <input type="text" v-show="Aggalumn" placeholder="Ingrese el barrio del Alumno" v-model="barrio">
+            <input type="text" v-show="Aggalumn" placeholder="Ingrese el tipo de trasnporte" v-model="transporte">
+            <input type="text" v-show="Aggalumn" placeholder="Ingrese su pre-requisito" v-model="materiaimp">
+            <input type="text" v-show="Aggalumn" placeholder="Ingrese al tipo de tecnologia que pertenece" v-model="Tecnologia">
+            <input type="text" v-show="Aggalumn" placeholder="Ingrese al tipo de tecnologia que pertenece" v-model="Tecnico">
+            <input type="text" v-show="Aggalumn" placeholder="es electiva o obligatoria" v-model="Modalidad">
+            <input type="number" v-show="Aggalumn" placeholder="No_creditos" v-model="No_creditos">
+            <input type="number" v-show="Aggalumn" placheolder=" No_asignaturas" v-model="No_asignaturas">
+            <input type="number" v-show="Aggalumn" placheolder=" año" v-model="año">
+            <button @click.prevent="enviar">enviar</button>
+        </form>
+        </div>
+        <h1>Datos de la sede</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Numero_sede</th>
+                    <th>Direccion_sede</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr v-for="(r) in campus">
+                    <td>{{r.Datos_sede.Direccion}}</td>
+                    <td>{{r.Datos_sede.Telefono}}</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+        
     </div>
+    
 </body>
 </html>

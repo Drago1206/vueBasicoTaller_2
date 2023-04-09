@@ -1,151 +1,339 @@
 [
+  {
+    "Bucaramanga": [
+      {
+        "Datos_sede": {
+          "Direccion": "Cra32-No23",
+          "Telefono": "324567891"
+        },
+        "Instructores": [
+          {
+            "Nombre": "juan1",
+            "telefono": "315648972",
+            "email": "juanmelo@gmail.com",
+            "Teams": {
+              "horario": "05-10-2022",
+              "Asignatura":"Funcionalidades",
+              "Tipo":"Remota",
+              "hora": "00:00",
+              "salones": "4 Piso A"
+            }
+          },
+          {
+            "Nombre": "adsffadsafdssdf",
+            "telefono": "315648972",
+            "email": "juanmelo@gmail.com",
+            "Teams": {
+              "horario": "gfdsgdfsgdfs",
+              "Asignatura":"Funcionalidades",
+              "Tipo":"Presencial",
+              "hora": "00:00",
+              "salones": "fsdafdasdfsasfda"
+            }
+          }
+        ],
+        "Aprendices": [
+          {
+          "Nombre": "Marlene",
+          "telefono": "316587254",
+          "email": "merlenetira@gmail.com",
+          "Barrio": "poblado",
+          "Transporte": "buseto",
+          "Teams": {
+            "horario": "05-10-2022",
+            "hora": "00:00",
+            "salones": "4 Piso A"
+          },
 
-    {
-    "Bucaramanga":[
-        { "Instructores":{
-            "Nombre":"juan",
-            "telefono":"315648972",
-            "email":"juanmelo@gmail.com",
-            "Teams":[
-                {
-                    "horario":"05-10-2022",
-                    "hora":"00:00",
-                    "salones":"4 Piso A"
-                }
-            ]
-            },"Aprendices":{
-                "Nombre":"Marlene",
-                "telefono":"316587254",
-                "email":"merlenetira@gmail.com",
-                "Barrio":"poblado",
-                "Tipo de Transporte":"buseto",
-                "Teams":[
-                    {
-                        "horario":"05-10-2022",
-                        "hora":"00:00",
-                        "salones":"4 Piso A"
-                    }
-                ],"Pre requisito":{
-                    "tecnologia":"soldadura",
-                    "tecnico":"nosewe",
-                    "modalidad":"electiva"
-                    
-                },"roadmap":{
-                    "Nro_creditos":"4",
-                    "Año":"2000",
-                    "Nro_asignaturas":"5"
-                }
-            }
+          "Niveles": {
+            "Pre_requisito": "Teoria de soldadura",
+            "tecnologia": "soldadura",
+            "tecnico": "nosewe",
+            "modalidad": "electiva"
+          },
+          "roadmap": {
+            "Nro_creditos": "4",
+            "Anio": "2000",
+            "Nro_asignaturas": "5"
+          }
+        },
+        {
+          "Nombre": "Marlene yuritza",
+          "telefono": "316587254",
+          "email": "merlenetira@gmail.com",
+          "Barrio": "poblado",
+          "Transporte": "buseto",
+          "Teams": {
+            "horario": "05-10-2023",
+            "hora": "00:00",
+            "salones": "4 Piso A"
+          },
+
+          "Niveles": {
+            "Pre_requisito": "Teoria de soldadura",
+            "tecnologia": "soldadura",
+            "tecnico": "nosewe",
+            "modalidad": "electiva"
+          },
+          "roadmap": {
+            "Nro_creditos": "6",
+            "Año": "2000",
+            "Nro_asignaturas": "5"
+          }
         }
-    ],"Medellin":[
-        { "Instructores":{
-            "Nombre":"juan",
-            "telefono":"315648972",
-            "email":"juanmelo@gmail.com",
-            "Teams":[
-                {
-                    "horario":"05-10-2022",
-                    "hora":"00:00",
-                    "salones":"4 Piso A"
-                }
-            ]
-            },"Aprendices":{
-                "Nombre":"Marlene",
-                "telefono":"316587254",
-                "email":"merlenetira@gmail.com",
-                "Barrio":"poblado",
-                "Tipo de Transporte":"buseto",
-                "Teams":[
-                    {
-                        "horario":"05-10-2022",
-                        "hora":"00:00",
-                        "salones":"4 Piso A"
-                    }
-                ],"Pre requisito":{
-                    "tecnologia":"soldadura",
-                    "tecnico":"nosewe",
-                    "modalidad":"electiva"
-                    
-                },"roadmap":{
-                    "Nro_creditos":"4",
-                    "Año":"2000",
-                    "Nro_asignaturas":"5"
-                }
+      ]
+      }
+    ],
+    "Medellin": [
+      {
+        "Datos_sede": {
+          "Direccion": "Cra32-No23",
+          "Telefono": "324567891"
+        },
+        "Instructores": [
+          {
+            "Nombre": "juan2",
+            "telefono": "315648972",
+            "email": "juanmelo@gmail.com",
+            "Teams": {
+              "horario": "05-10-2022",
+              "Asignatura":"Funcionalidades",
+              "Tipo":"Remota",
+              "hora": "00:00",
+              "salones": "4 Piso A"
+            } 
+          },
+          {
+            "Nombre": "juan2.1",
+            "telefono": "315648972",
+            "email": "juanmelo@gmail.com",
+            "Teams": {
+              "horario": "05-10-2022",
+              "Asignatura":"Funcionalidades B",
+              "Tipo":"Presencial",
+              "hora": "00:00",
+              "salones": "4 Piso A"
             }
+          }
+        ],
+        "Aprendices": [
+          {
+          "Nombre": "Marlene",
+          "telefono": "316587254",
+          "email": "merlenetira@gmail.com",
+          "Barrio": "poblado",
+          "Transporte": "buseto",
+          "Teams": {
+            "horario": "05-10-2023",
+            "hora": "00:00",
+            "salones": "4 Piso A"
+          },
+          "Niveles": {
+            "Pre_requisito": "Teoria de soldadura",
+            "tecnologia": "soldadura",
+            "tecnico": "nosewe",
+            "modalidad": "electiva"
+          },
+          "roadmap": {
+            "Nro_creditos": "4",
+            "Año": "2000",
+            "Nro_asignaturas": "5"
+          }
+        },
+        {
+          "Nombre": "Marlene yuritza",
+          "telefono": "316587254",
+          "email": "merlenetira@gmail.com",
+          "Barrio": "poblado",
+          "Transporte": "buseto",
+          "Teams": {
+            "horario": "05-10-2023",
+            "hora": "00:00",
+            "salones": "4 Piso A"
+          },
+
+          "Niveles": {
+            "Pre_requisito": "Teoria de soldadura",
+            "tecnologia": "soldadura",
+            "tecnico": "nosewe",
+            "modalidad": "electiva"
+          },
+          "roadmap": {
+            "Nro_creditos": "6",
+            "Año": "2000",
+            "Nro_asignaturas": "5"
+          }
         }
-    ],"Bogota":[
-        { "Instructores":{
-            "Nombre":"juan",
-            "telefono":"315648972",
-            "email":"juanmelo@gmail.com",
-            "Teams":[
-                {
-                    "horario":"05-10-2022",
-                    "hora":"00:00",
-                    "salones":"4 Piso A"
-                }
-            ]
-            },"Aprendices":{
-                "Nombre":"Marlene",
-                "telefono":"316587254",
-                "email":"merlenetira@gmail.com",
-                "Barrio":"poblado",
-                "Tipo de Transporte":"buseto",
-                "Teams":[
-                    {
-                        "horario":"05-10-2022",
-                        "hora":"00:00",
-                        "salones":"4 Piso A"
-                    }
-                ],"Pre requisito":{
-                    "tecnologia":"soldadura",
-                    "tecnico":"nosewe",
-                    "modalidad":"electiva"
-                    
-                },"roadmap":{
-                    "Nro_creditos":"4",
-                    "Año":"2000",
-                    "Nro_asignaturas":"5"
-                }
+      ]
+      }
+    ],
+    "Bogota": [
+      {
+        "Datos_sede": {
+          "Direccion": "Cra35-No27",
+          "Telefono": "324567891"
+        },
+        "Instructores": [
+          {
+            "Nombre": "juan1",
+            "telefono": "315648972",
+            "email": "juanmelo@gmail.com",
+            "Teams": {
+              "horario": "05-10-2022",
+              "Asignatura":"FuncionalidadesC",
+              "Tipo":"Remota",
+              "hora": "00:00",
+              "salones": "4 Piso A"
             }
-        }
-    ],"Mexico":[
-        { "Instructores":{
-            "Nombre":"juan",
-            "telefono":"315648972",
-            "email":"juanmelo@gmail.com",
-            "Teams":[
-                {
-                    "horario":"05-10-2022",
-                    "hora":"00:00",
-                    "salones":"4 Piso A"
-                }
-            ]
-            },"Aprendices":{
-                "Nombre":"Marlene",
-                "telefono":"316587254",
-                "email":"merlenetira@gmail.com",
-                "Barrio":"poblado",
-                "Tipo de Transporte":"buseto",
-                "Teams":[
-                    {
-                        "horario":"05-10-2022",
-                        "hora":"00:00",
-                        "salones":"4 Piso A"
-                    }
-                ],"Pre requisito":{
-                    "tecnologia":"soldadura",
-                    "tecnico":"nosewe",
-                    "modalidad":"electiva"
-                    
-                },"roadmap":{
-                    "Nro_creditos":"4",
-                    "Año":"2000",
-                    "Nro_asignaturas":"5"
-                }
+          },
+          {
+            "Nombre": "adsffadsafdssdf",
+            "telefono": "315648972",
+            "email": "juanmelo@gmail.com",
+            "Teams": {
+              "horario": "gfdsgdfsgdfs",
+              "Asignatura":"Funcionalidades",
+              "Tipo":"Presencial",
+              "hora": "00:00",
+              "salones": "fsdafdasdfsasfda"
             }
+          }
+        ],
+        "Aprendices":[
+        {
+          "Nombre": "Marlene yuritza",
+          "telefono": "316587254",
+          "email": "merlenetira@gmail.com",
+          "Barrio": "poblado",
+          "Transporte": "buseto",
+          "Teams": {
+            "horario": "05-10-2022",
+            "hora": "00:00",
+            "salones": "4 Piso A"
+          },
+
+          "Niveles": {
+            "Pre_requisito": "Teoria de soldadura",
+            "tecnologia": "soldadura",
+            "tecnico": "nosewe",
+            "modalidad": "electiva"
+          },
+          "roadmap": {
+            "Nro_creditos": "5",
+            "Año": "2000",
+            "Nro_asignaturas": "5"
+          }
+        },
+        {
+          "Nombre": "Marlene yuritza",
+          "telefono": "316587254",
+          "email": "merlenetira@gmail.com",
+          "Barrio": "poblado",
+          "Transporte": "buseto",
+          "Teams": {
+            "horario": "05-10-2023",
+            "hora": "00:00",
+            "salones": "4 Piso A"
+          },
+          "Niveles": {
+            "Pre_requisito": "Teoria de soldadura",
+            "tecnologia": "soldadura",
+            "tecnico": "nosewe",
+            "modalidad": "electiva"
+          },
+          "roadmap": {
+            "Nro_creditos": "3",
+            "Año": "2000",
+            "Nro_asignaturas": "5"
+          }
         }
-    ]
+      ]
     }
+    
+    ],
+    "Mexico": [
+      {
+        "Datos_sede": {
+          "Direccion": "Cra33-No22",
+          "Telefono": "324567891"
+        },
+        "Instructores": [
+          {
+            "Nombre": "juan1",
+            "telefono": "315648972",
+            "email": "juanmelo@gmail.com",
+            "Teams": {
+              "horario": "05-10-2022",
+              "Asignatura":"FuncionalidadesD",
+              "Tipo":"Remota",
+              "hora": "00:00",
+              "salones": "4 Piso A"
+            }
+          },
+          {
+            "Nombre": "adsffadsafdssdf",
+            "telefono": "315648972",
+            "email": "juanmelo@gmail.com",
+            "Teams": {
+              "horario": "gfdsgdfsgdfs",
+              "Asignatura":"FuncionalidadesD",
+              "Tipo":"Presencial",
+              "hora": "00:00",
+              "salones": "fsdafdasdfsasfda"
+            }
+          }
+        ],
+        "Aprendices": [
+          {
+          "Nombre": "Marlene",
+          "telefono": "316587254",
+          "email": "merlenetira@gmail.com",
+          "Barrio": "poblado",
+          "Transporte": "buseto",
+          "Teams": {
+            "horario": "05-10-2022",
+            "hora": "00:00",
+            "salones": "4 Piso A"
+          },
 
+          "Niveles": {
+            "Pre_requisito": "Teoria de soldadura",
+            "tecnologia": "soldadura",
+            "tecnico": "nosewe",
+            "modalidad": "electiva"
+          },
+          "roadmap": {
+            "Nro_creditos": "4",
+            "Año": "2000",
+            "Nro_asignaturas": "5"
+          }
+        },
+        {
+          "Nombre": "Marlene yuritza",
+          "telefono": "316587254",
+          "email": "merlenetira@gmail.com",
+          "Barrio": "poblado",
+          "Transporte": "buseto",
+          "Teams": {
+            "horario": "05-10-2023",
+            "hora": "00:00",
+            "salones": "4 Piso A"
+          },
+
+          "Niveles": {
+            "Pre_requisito": "Teoria de soldadura",
+            "tecnologia": "soldadura",
+            "tecnico": "nosewe",
+            "modalidad": "electiva"
+          },
+          "roadmap": {
+            "Nro_creditos": "3",
+            "Año": "2000",
+            "Nro_asignaturas": "5"
+          }
+        }
+      ]
+      }
+    ]
+  }
 ]

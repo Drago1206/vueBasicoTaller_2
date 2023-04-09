@@ -1,0 +1,7 @@
+table,th, tr, td{
+border: solid 0.3px black;
+text-align: center;
+}
+th{
+    background-color: aqua;
+}
